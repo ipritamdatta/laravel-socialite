@@ -34,7 +34,7 @@ How to Add google login in Laravel 6 0
 
   Spot the aliases in config  app.php file and register the aliases.
 
-          'Socialite' Laravel\Socialite\Facades\Socialite::class,
+          'Socialite' => Laravel\Socialite\Facades\Socialite::class,
          
 7. Create Google App To Get Tokens
  if project not created project then showing 
